@@ -9,7 +9,7 @@ int main() {
   cin >> N >> v;
   vector<int> a(N);
 
-  for(int i = 0; i < N; ++i) {
+  for (int i = 0; i < N; ++i) {
     cin >> a[i];
   }
 
@@ -20,6 +20,9 @@ int main() {
     }
   }
 
-  if (exist) cout << "Yes" << endl;
-  else cout << "No" << endl;
+  if (exist) {
+    cout << "Yes" << endl;
+  } else {
+    cout << "No" << endl;
+  }
 }
